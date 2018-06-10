@@ -1,6 +1,13 @@
 # Baatein | WebApplication
 Chat application based on Nodejs and Sockets
 
+```
+
+https://baatien.herokuapp.com/
+
+```
+
+
 ## Features
 1. Multiple User basic chatroom</br>
 2. Typing Acknowledgement</br>
