@@ -1,8 +1,12 @@
 var express =require('express');
 var socket = require('socket.io');
+var http = require('http').Server(app);
+
 //App Setup
+
 var app = express();
-var server = app.listen(4000 ,function () {
+app.set('port', (process.env.PORT || 3000));
+var server = app.listen(app.get('port'),function () {
     console.log("Server Working");
 })
 
